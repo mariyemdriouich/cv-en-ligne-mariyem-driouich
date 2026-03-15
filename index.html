@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariyem Driouich - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-primary-custom fw-bold fs-4" href="#">MD.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#education">Parcours</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#projects">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3 mt-2 mt-lg-0">
+                    <a href="#" id="nav-github" class="social-icon" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" id="nav-linkedin" class="social-icon" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-7 text-center text-md-start mt-5 mt-md-0">
+                    <p class="text-primary-custom fw-bold mb-1 fs-5">Hello,</p>
+                    <h1 class="display-3 fw-bold mb-3">Je suis <span id="profile-name">Nom</span></h1>
+                    <p class="lead text-muted fs-4 mb-4" id="profile-title">Titre</p>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                        <a href="assets/Mariyem_Driouich_CV.pdf" class="btn btn-custom btn-lg shadow-sm" download>Télécharger CV</a>
+                        <a href="#contact" class="btn btn-outline-custom btn-lg">Me contacter</a>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container text-center">
+            <h2 class="mb-5 fw-bold text-primary-custom">À propos de moi</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="p-4 rounded-custom bg-white shadow-sm border">
+                        <p class="lead text-secondary mb-0" id="about-text" style="line-height: 1.8;">Présentation courte...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="mb-5 text-center fw-bold text-primary-custom">Compétences</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card card-custom h-100 p-4 border-0">
+                        <h4 class="mb-4 text-dark"><i class="bi bi-palette text-primary-custom me-2"></i> UX Design & Web Dev</h4>
+
+                        <div class="skill-label">Figma / UX Research / XML</div>
+                        <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+
+                        <div class="skill-label">HTML / CSS / Bootstrap</div>
+                        <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+
+                        <div class="skill-label">Python</div>
+                        <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+
+                        <div class="skill-label">WordPress</div>
+                        <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-custom h-100 p-4 border-0">
+                        <h4 class="mb-4 text-dark"><i class="bi bi-graph-up text-primary-custom me-2"></i> Marketing & Management</h4>
+
+                        <div class="skill-label">Analyse de marché & Stratégie</div>
+                        <div class="progress"><div class="progress-bar" style="width: 95%"></div></div>
+
+                        <div class="skill-label">Social Media & Email Marketing</div>
+                        <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+
+                        <div class="skill-label">Comptabilité & Gestion d'entreprise</div>
+                        <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+
+                        <div class="skill-label">Photoshop & Canva</div>
+                        <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Education -->
+                <div class="col-md-6">
+                    <h2 class="mb-4 fw-bold text-primary-custom"><i class="bi bi-mortarboard me-2"></i> Formation</h2>
+                    <div class="card card-custom mb-3 border-0 p-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">DUT in Digital Marketing & User Experience</h5>
+                            <h6 class="text-muted mb-0"><i class="bi bi-building me-1"></i> École Supérieure de Technologie — Dakhla | 2024 — Présent</h6>
+                        </div>
+                    </div>
+                    <div class="card card-custom mb-4 border-0 p-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Baccalauréat Sciences Économiques</h5>
+                            <h6 class="text-muted mb-0"><i class="bi bi-building me-1"></i> Lycée Technique Lalla Khadija | Juin 2024</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="col-md-6">
+                    <h2 class="mb-4 fw-bold text-primary-custom"><i class="bi bi-briefcase me-2"></i> Expérience</h2>
+                    <div class="card card-custom mb-3 border-0 p-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Stage – Direction Régionale de la Santé</h5>
+                            <h6 class="text-primary-custom mb-3"><i class="bi bi-geo-alt me-1"></i> Dakhla | 17/06/2025 → 16/07/2025</h6>
+                            <ul class="text-secondary small ps-3 mb-0">
+                                <li>Pratiques de gestion financière et comptabilité</li>
+                                <li>Compréhension du business management</li>
+                                <li>Gestion administrative</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card card-custom border-0 p-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Formation Entrepreneur</h5>
+                            <h6 class="text-muted mb-0"><i class="bi bi-building me-1"></i> Dakhla Learning Center | 2024</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="mb-5 text-center fw-bold text-primary-custom">Projets Académiques</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-custom h-100 p-2 border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-3 text-primary-custom"><i class="bi bi-building fs-1"></i></div>
+                            <h5 class="card-title mb-2">Étude de marché – The View</h5>
+                            <p class="text-muted small mb-3">Arabie Saoudite</p>
+                            <p class="card-text flex-grow-1 text-secondary">Analyse du marché touristique, étude du positionnement de l'hôtel et identification des opportunités marketing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom h-100 p-2 border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-3 text-primary-custom"><i class="bi bi-camera fs-1"></i></div>
+                            <h5 class="card-title mb-2">TCHEEZEBOX</h5>
+                            <p class="text-muted small mb-3">Projet Phygital</p>
+                            <p class="card-text flex-grow-1 text-secondary">Analyse d'un dispositif phygital utilisant des cabines photos connectées en magasin afin d'améliorer l'expérience client.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom h-100 p-2 border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-3 text-primary-custom"><i class="bi bi-facebook fs-1"></i></div>
+                            <h5 class="card-title mb-2">Appli Campagnes FB</h5>
+                            <p class="text-muted small mb-3">Concept App</p>
+                            <p class="card-text flex-grow-1 text-secondary">Concept d'application permettant de gérer et suivre les campagnes publicitaires Facebook de manière plus efficace.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="mb-5 text-center fw-bold text-primary-custom">Me Contacter</h2>
+            <div class="row justify-content-center">
+                <!-- MacOS Style Form -->
+                <div class="col-md-8 col-lg-6">
+                    <div class="macos-window">
+                        <div class="macos-header">
+                            <div class="macos-dot red"></div>
+                            <div class="macos-dot yellow"></div>
+                            <div class="macos-dot green"></div>
+                        </div>
+                        <div class="p-4 p-md-5">
+                            <form>
+                                <div class="mb-4">
+                                    <label class="form-label fw-semibold">Nom</label>
+                                    <input type="text" class="form-control form-control-lg bg-light border-0" placeholder="Votre nom complet" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="form-label fw-semibold">Email</label>
+                                    <input type="email" class="form-control form-control-lg bg-light border-0" placeholder="vous@email.com" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="form-label fw-semibold">Message</label>
+                                    <textarea class="form-control form-control-lg bg-light border-0" rows="4" placeholder="Bonjour, je vous contacte pour..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-custom w-100 btn-lg shadow-sm">Envoyer <i class="bi bi-send ms-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Direct Details -->
+                <div class="col-md-4 mt-5 mt-md-0 d-flex flex-column justify-content-center px-4">
+                    <div class="mb-4 d-flex align-items-center">
+                        <div class="bg-primary-custom rounded-circle p-3 me-3 text-center" style="width: 50px; height: 50px; line-height: 20px;">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Email</h6>
+                            <a href="#" id="contact-email" class="text-secondary text-decoration-none">email</a>
+                        </div>
+                    </div>
+                    <div class="mb-4 d-flex align-items-center">
+                        <div class="bg-primary-custom rounded-circle p-3 me-3 text-center" style="width: 50px; height: 50px; line-height: 20px;">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Téléphone</h6>
+                            <span id="contact-phone" class="text-secondary">phone</span>
+                        </div>
+                    </div>
+                    <div class="mb-4 d-flex align-items-center">
+                        <div class="bg-primary-custom rounded-circle p-3 me-3 text-center" style="width: 50px; height: 50px; line-height: 20px;">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Localisation</h6>
+                            <span id="contact-location" class="text-secondary">location</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex justify-content-center gap-4 mb-3">
+                <a href="#" id="footer-github" class="social-icon" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="#" id="footer-linkedin" class="social-icon" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="mb-0 text-muted small">&copy; 2025 Mariyem Driouich. Portfolio réalisé dans le cadre d'un projet étudiant.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
